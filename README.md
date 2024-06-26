@@ -1,4 +1,4 @@
-**Advertising Performance Analysis **
+*Advertising Performance Analysis*
 
 **Business Question:**  
 - How have different advertising platforms performed across major states in different regions of the United States from January to October 2023, and how can we modify our marketing strategies for the next year based on this performance?
