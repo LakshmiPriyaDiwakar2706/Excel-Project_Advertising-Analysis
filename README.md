@@ -7,22 +7,29 @@
 - The analysis aims to optimize marketing strategies by evaluating the performance of advertising platforms across regions and product categories. Insights into regional performance, product category trends, and advertising channel effectiveness will guide future marketing efforts.
 
 **Data Collected:**  
-- Dataset Columns:
-  - Region
-  - State
-  - City
-  - Country
-  - Product ID
-  - Product Category
-  - Product Price
-  - Product Sold
-  - Sales Date
-  - Discount Offered
-  - Sales Channel
-  - Total Sales
-  - Outliers
-  - Advertising Channels (TV, Google Ads, Social Media, Influencer Marketing, Affiliate Marketing)
-  - Total Sales from Advertising Channels
+- Sourced advertising platform sales data from Kaggle, and generated synthetic product data using ChatGPT. The primary focus was to utilize Excel for data cleaning, analysis, and dashboard creation.
+
+## Dataset Description
+The dataset contains sales data with the following columns:
+
+- **Region**: The geographical region where the sales occurred. Possible values: `East`, `West`, `North`, `South`.
+- **State**: The state where the sales occurred. Possible values: `New York`, `California`, `Illinois`, `Texas`.
+- **Country**: The country where the sales occurred. Possible value: `United States`.
+- **Product ID**: A unique identifier for each product.
+- **Product Category**: The category of the product. There are 5 distinct categories.
+- **Product Price**: The price per product.
+- **Product Sold**: The quantity of the product sold.
+- **Sales Date**: The date when the sales occurred.
+- **Discount Offered**: The discount offered on the product.
+- **Sales Channel**: The sales channel where the product was sold. Possible values: `instore`, `online`.
+- **Total Sales**: The total sales amount, combining instore and online sales. Includes sales from the company website and other advertising platforms such as TV, Google Ads, Social Media, Influencer Marketing, and Affiliate Marketing.
+- **Total Sales In-store Website**: The sales amount specifically from the company website.
+- **Sales in Each Advertising Channel**: The sales amount from each advertising platform:
+  - **TV**: Sales from TV advertising.
+  - **Google Ads**: Sales from Google Ads.
+  - **Social Media**: Sales from Social Media advertising.
+  - **Influencer Marketing**: Sales from Influencer Marketing.
+  - **Affiliate Marketing**: Sales from Affiliate Marketing.
 
 **Data Cleaning Steps:**  
 1. Formatted Headers: Centered and bolded column headers for better visibility.
