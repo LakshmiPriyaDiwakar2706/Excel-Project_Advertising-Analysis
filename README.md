@@ -50,7 +50,7 @@ The dataset contains sales data with the following columns:
 - Advertising Platform Performance:
   - Consistent revenue generation; "Sports" outperformed "Home & Kitchen."
 
-**Next Steps:**  
+**Recommendations:**  
 - Focus on Improvement: Enhance "Home & Kitchen" and "Sports" marketing strategies, especially in the East.
 - Strategy Replication: Apply successful South strategies to the North.
 - Region-Specific Strategies: Develop targeted marketing based on regional insights to optimize spend and increase sales.
